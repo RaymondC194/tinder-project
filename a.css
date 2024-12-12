@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hotpink;
+    height: 100vh;
+    padding: 10px;
+    gap: 20px;
+}
+
+#profileList, #sigma {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    overflow-y: auto;
+}
+
+#messages{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#profileList h2, #messages h2, #sigma h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#pfp1, #pfp2, #pfp3 {
+    border-radius: 100px;
+}
+
+.profile img {
+    width: 20%;
+    height: 20%;
+}
+
+.profile .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.profile .desc {
+    font-size: 14px;
+    color: gray;
+}
+
+#message-container { 
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.message1 {
+    background: lightgray;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 40%;
+    align-self: flex-start;
+}
+.message2 {
+    background: lightskyblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 40%;
+    align-self: flex-end;
+}
+
+#sigma img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
